@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link page</title>
+</head>
+<body>
+    
+    <div class="container">
+        {{content}}
+        <h2>User link new id</h2>
+        <form method="post" action="/link">
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" required>
+            
+                <label for="link_id">Link ID: </label>
+                <input type="text" id="link_id" name="link_id" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
