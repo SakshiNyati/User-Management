@@ -11,6 +11,3 @@ http://127.0.0.1:8000/aa/login
 http://127.0.0.1:8000/aa/link
 http://127.0.0.1:8000/aa/delete
 
-requirements:
-python
-mongodb
